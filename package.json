@@ -13,5 +13,8 @@
         "jquery": "^3.3.1",
         "laravel-mix": "^1.7.2",
         "lodash": "^4.16.2"
+    },
+    "dependencies": {
+        "resumablejs": "^1.1.0"
     }
 }

@@ -11,11 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('upload');
+Route::get('/dropzone', function () {
+    return view('dropzone');
 });
 Route::get('/upload', function () {
     return view('upload');
+});
+Route::get('/resumable', function () {
+    return view('resumable');
 });
 
 Route::post('upload', 'DependencyUploadController@uploadFile');
