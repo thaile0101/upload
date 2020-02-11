@@ -18,6 +18,13 @@
             @yield('page-title', 'Laravel chunked upload')
         </div>
         {{ csrf_field() }}
+        <div class="links">
+            <a href="{{ url('upload') }}">File Upload</a>
+            <a href="{{ url('dropzone') }}">DropZone</a>
+            <a href="{{ url('resumable') }}">Resumable</a>
+            <a href="{{ url('history') }}">History</a>
+        </div>
+        <br><hr>
         @yield('content')
     </div>
     <link rel="stylesheet"

@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('page-title', 'File Upload')
+@section('page-title', 'Media')
 
 @section('content')
     <div class="container">
